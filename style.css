@@ -1,0 +1,85 @@
+:root {
+	--main-bg: #000000;
+	--main-fg: #fff;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--main-fg);
+	background-color: var(--main-bg);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#bg-image {
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main {
+	position: absolute;
+	top: 0;
+}
+
+.time {
+	color: white;
+	margin-left: 50px;
+	font-size: 75px;
+	text-align: center;
+}
+
+#mainTime {
+	margin-bottom: 0px;
+}
+
+#date {
+	text-align: center;
+	font-size: 60px;
+	margin: 0px;
+}
+
+input {
+	background-color: #00000050;
+	border: 1px solid var(--main-fg);
+	color: var(--main-fg);
+	padding: 3px;
+	border-radius: 5px;
+	margin-left: 14%;
+	margin-top: 14px;
+	width: 400px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.video {
+	display: none;
+}
+
+#quote {
+	margin-left: 14%;
+	margin-top: 15px;
+}
+
+.music {
+	margin-left: 14%;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.music button {
+	background-color: #00000000;
+	color: var(--main-fg);
+	border: 1px solid white;
+	border-radius: 2px;
+}
